@@ -1,0 +1,52 @@
+{
+  "name": "SESSION DaRk ↺",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+  "logo": "https://telegra.ph/file/b3e5093cb07c6185cd3fc.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/source-ahmed/SESSION",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "لا تغيير هذة القيمة",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "ضع ايبي ايدي احصل علية من my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "ضع ايبي هاش احصل علية من my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "ضع ايدي مالك البوت",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_DB_URI": {
+      "description": "ضع كود مونجو احصل علية من cloud.mongodb.com",
+      "required": true,
+      "value": "mongodb+srv://devfraon:devfraon@devfraon.sg3sijf.mongodb.net/?retryWrites=true&w=majority"
+    },
+    "MUST_JOIN": {
+      "description": "ضع يوزر جروب للبوت.(without @)",
+      "required": true,
+      "value": "D2_RK"
+    },
+    "BOT_TOKEN": {
+      "description": "ارسل توكن البوت احصل علية من @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
+}
